@@ -1,0 +1,118 @@
+/*
+File Name: palette.css
+Date: 2/28/18 - revised
+Programmer: Mario Lopriore
+*/
+.hero-area {
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.header-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-text h1 {
+  color: #000;
+  font-size: 3em;
+  font-weight: 700;
+  /* position: absolute; */
+  text-shadow: 2px 3px #ffffff80;
+}
+/* .overlay-text {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 2em;
+    width: auto;
+} */
+.header-nav a {
+  display: grid;
+  justify-items: center;
+  text-decoration: none;
+}
+.header-nav h2 {
+  color: #f3f3f3;
+  font-size: 2em;
+  padding: .5em 0 .3em;
+}
+.header-nav h2:hover {
+  color: #e76f1f;
+}
+.header-nav img {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.overlay-text {
+  position: relative;
+  width: 100%;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff80 80;
+}
+.overlay-text:hover .overlay {
+  opacity: 1;
+}
+.on-hover {
+  color: #f3f3f3;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+footer section {
+  background-color: #381204;
+  padding: 1em;
+  text-align: center;
+}
+footer small {
+  color: #f3f3f3;
+  font-family: 'Share', cursive;
+  font-weight: 400;
+}
+@media (min-width: 600px) {
+  .header-nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-column-gap: .8em; */
+    grid-gap: 1.2em;
+  }
+  .header-nav a h2 {
+    text-align: center;
+  }
+  .header-nav a img {
+    margin: 1em;
+  }
+}
+@media (min-width: 900px) {
+  .header-nav {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
