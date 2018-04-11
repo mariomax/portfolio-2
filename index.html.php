@@ -13,6 +13,7 @@
 </head>
 <body>
     <?php include 'includes/header.html.php'; ?>
-    <!-- <?php include 'includes/nav.html.php'; ?> -->
+    <?php include 'includes/content.html.php'; ?>
+    <?php include 'includes/footer.html.php'; ?>
 </body>
 </html>

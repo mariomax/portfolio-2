@@ -1,5 +1,18 @@
 @import 'palette.less';
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+small,
+em {
+    font-family: Neuton, sans-serif;
+}
+
 .hero-area {
     position: relative;
     width: 100%;
@@ -37,7 +50,22 @@ img {
     width: auto;
 } */
 
-.header-nav {
+.intro {
+    background-color: @light;
+    h2 {
+        font-size: 2em;
+        text-align: center;
+        padding: 1.5em;
+    }
+    p {
+        font-size: 1.5em;
+        margin: auto;
+        max-width: 80%;
+        padding-bottom: 2em;
+    }
+}
+.thumbs {
+    background-color: @light;
     a {
         display: grid;
         justify-items: center;
@@ -48,7 +76,7 @@ img {
         font-size: 2em;
         padding: .5em 0 .3em;
         &:hover {
-            color: @orange;
+            color: @lightLink;
         }
     }
     img {
@@ -82,17 +110,28 @@ img {
 }
 
 .overlay-text:hover .overlay {
-    opacity: 1;
+    opacity: .9;
+    // background-color: @trans-cover;
 }
 
 .on-hover {
     color: @light;
-    font-size: 20px;
+    font-size: 1.5em;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.p-on-hover {
+    color: @light;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    -ms-transform: translate(-50%, -70%);
     text-align: center;
 }
 
@@ -110,7 +149,7 @@ footer {
 }
 
 @media (min-width: 600px) {
-    .header-nav {
+    .thumbs {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         /* grid-column-gap: .8em; */
@@ -127,7 +166,7 @@ footer {
 }
 
 @media (min-width: 900px) {
-    .header-nav {
+    .thumbs {
         grid-template-columns: repeat(3, 1fr); 
     }
 }

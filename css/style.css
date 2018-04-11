@@ -3,6 +3,18 @@ File Name: palette.css
 Date: 2/28/18 - revised
 Programmer: Mario Lopriore
 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+small,
+em {
+  font-family: Neuton, sans-serif;
+}
 .hero-area {
   position: relative;
   width: 100%;
@@ -36,20 +48,37 @@ img {
     height: 2em;
     width: auto;
 } */
-.header-nav a {
+.intro {
+  background-color: #f3f3f3;
+}
+.intro h2 {
+  font-size: 2em;
+  text-align: center;
+  padding: 1.5em;
+}
+.intro p {
+  font-size: 1.5em;
+  margin: auto;
+  max-width: 80%;
+  padding-bottom: 2em;
+}
+.thumbs {
+  background-color: #f3f3f3;
+}
+.thumbs a {
   display: grid;
   justify-items: center;
   text-decoration: none;
 }
-.header-nav h2 {
+.thumbs h2 {
   color: #f3f3f3;
   font-size: 2em;
   padding: .5em 0 .3em;
 }
-.header-nav h2:hover {
-  color: #e76f1f;
+.thumbs h2:hover {
+  color: #70a3dd;
 }
-.header-nav img {
+.thumbs img {
   max-width: 80%;
   margin: 0 auto;
 }
@@ -72,19 +101,28 @@ img {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #ffffff80 80;
+  background-color: #242424;
 }
 .overlay-text:hover .overlay {
-  opacity: 1;
+  opacity: .9;
 }
 .on-hover {
   color: #f3f3f3;
-  font-size: 20px;
+  font-size: 1.5em;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.p-on-hover {
+  color: #f3f3f3;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  -ms-transform: translate(-50%, -70%);
   text-align: center;
 }
 footer section {
@@ -98,21 +136,21 @@ footer small {
   font-weight: 400;
 }
 @media (min-width: 600px) {
-  .header-nav {
+  .thumbs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* grid-column-gap: .8em; */
     grid-gap: 1.2em;
   }
-  .header-nav a h2 {
+  .thumbs a h2 {
     text-align: center;
   }
-  .header-nav a img {
+  .thumbs a img {
     margin: 1em;
   }
 }
 @media (min-width: 900px) {
-  .header-nav {
+  .thumbs {
     grid-template-columns: repeat(3, 1fr);
   }
 }
