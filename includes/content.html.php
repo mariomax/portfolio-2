@@ -1,6 +1,6 @@
 <section class="intro">
     <h2>Projects:</h2>
-    <p>Here are a few of the sites I'm currently working on and a couple that are *live* in the wild.</p>
+    <p>Here are a few of the sites I'm currently working on and a couple that are *live* in the wild. Nullam libero est, lacinia vel mauris in, condimentum tristique magna. Etiam vulputate, libero id accumsan sagittis, diam sem dignissim metus, et sagittis leo justo eu elit. Phasellus mollis viverra ex, sit amet convallis lorem auctor vel. Mauris sed urna arcu. Cras posuere augue non dictum pellentesque.</p>
 </section>
 <section class="thumbs">
     <a href="https://www.worldwidewario.com/cms" target="_blank" rel="nofollow" class="overlay-text">
@@ -17,11 +17,11 @@
             <p class="p-on-hover">Nullam aliquet justo eget facilisis molestie. Praesent eget sollicitudin augue, id est lobortis lectus malesuada luctus.</p>   
         </div>
     </a>
-    <a href="#item3" class="overlay-text">
-        <img src="../images/coyoteSQ.jpg" alt="an image">
+    <a href="http://www.anchortagdesign.com/boots4" target="_blank" rel="nofollow" class="overlay-text">
+        <img src="images/boots-thumb.jpg" alt="bootstrap 4 template logo">
         <div class="overlay">
-            <h2 class="on-hover">See Page 4</h2>
-            <p>Suspendisse ullamcorper convallis arcu at dapibus. Pellentesque consequat scelerisque nisi, id accumsan sem convallis vel.</p>   
+            <h2 class="on-hover">Bootstrap 4</h2>
+            <p class="p-on-hover">Suspendisse ullamcorper convallis arcu at dapibus. Pellentesque consequat scelerisque nisi, id accumsan sem convallis vel.</p>   
         </div>
     </a>
     <a href="#item4" class="overlay-text">
