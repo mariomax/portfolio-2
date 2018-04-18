@@ -147,7 +147,6 @@ footer small {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* grid-column-gap: .8em; */
-    grid-gap: 1.2em;
   }
   .thumbs a h2 {
     text-align: center;
