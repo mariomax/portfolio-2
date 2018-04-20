@@ -6,6 +6,6 @@
         <img srcset="images/hero-square.jpg" alt="Interstate 84, Portland Oregon">
     </picture>
     <span class="header-text">    
-        <h1>Portfolio II</h1>
+        <h1>Anchor Tag Design II</h1>
     </span>
 </section>

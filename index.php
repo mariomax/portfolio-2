@@ -29,8 +29,9 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <?php include 'includes/header.html.php'; ?>
-    <?php include 'includes/content.html.php'; ?>
-    <?php include 'includes/footer.html.php'; ?>
+    <?php include 'includes/navigation.php'; ?>
+    <?php include 'includes/header.php'; ?>
+    <?php include 'includes/content.php'; ?>
+    <?php include 'includes/footer.php'; ?>
 </body>
 </html>

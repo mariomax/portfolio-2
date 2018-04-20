@@ -28,7 +28,7 @@
         <img src="images/ace-thumb.jpg" alt="Ace in the Hole MultiSports">
         <div class="overlay">
             <h2 class="on-hover">Ace in the Hole</h2>
-            <p class="p-on-hover">Maecenas porttitor lectus sit amet sem fermentum, vitae molestie ex ultricies. Quisque id elit vel ante accumsan scelerisque sit amet sit amet ante.  Nunc  vitae rutrum nisl. Mauris at volutpat sem. Nunc in magna velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Morbi quis sapien aliquam, euismod est fringilla, ornare dolor.</p>   
+            <p class="p-on-hover">Maecenas porttitor lectus sit amet sem fermentum, vitae molestie ex ultricies. Quisque id elit vel ante accumsan scelerisque sit amet sit amet ante.  Nunc  vitae rutrum nisl. Mauris at volutpat sem. Nunc in magna velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. Morbi quis sapien aliquam, euismod est fringilla, ornare dolor.</p>   
         </div>
     </a>
     <a href="https://www.anchortagdesign.com/coyote/index.html" target="_blank" rel="nofollow" class="overlay-text">

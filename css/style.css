@@ -73,6 +73,7 @@ img {
   display: grid;
   justify-items: center;
   text-decoration: none;
+  padding-top: 1.5em;
 }
 .thumbs h2 {
   color: #ffffff;
@@ -147,6 +148,10 @@ footer small {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* grid-column-gap: .8em; */
+  }
+  .thumbs a {
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
   .thumbs a h2 {
     text-align: center;
